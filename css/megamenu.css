@@ -1,0 +1,92 @@
+header {
+  position: relative;
+}
+
+.navbar-megamenu {
+  background-color: #3c5071;
+  border-radius: 2px;
+  border-color: #2f415e;
+  letter-spacing: 0.53px;
+}
+.navbar-megamenu .navbar-brand {
+  color: #ffffff;
+  font-weight: 800;
+}
+.navbar-megamenu .navbar-nav > li .dropdown-menu {
+  left: unset;
+  right: 0;
+}
+.navbar-megamenu .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-megamenu .navbar-nav > li > a:hover, .navbar-megamenu .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #30405a;
+}
+.navbar-megamenu .navbar-nav > .active > a, .navbar-megamenu .navbar-nav > .active > a:hover, .navbar-megamenu .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #30405a;
+}
+.navbar-megamenu .navbar-nav > li.megamenu {
+  position: static;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu {
+  min-width: 280px;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column {
+  width: 280px;
+  display: block;
+  float: left;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column:not(:first-child):after {
+  position: absolute;
+  top: 0;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #eeeeee;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .dropdown-divider {
+  margin: 16px 20px 10px;
+  max-width: 60px;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a {
+  font-size: 13px;
+  padding: 4px 20px;
+  display: block;
+  color: #333333;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a:hover, .navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a:focus {
+  background-color: #f5f5f5;
+  color: #333333;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column span.sub {
+  font-size: 11px;
+  margin-top: -4px;
+  padding: 2px 20px;
+  display: block;
+  line-height: 1.4em;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .featured-image a {
+  font-size: 14px;
+  color: #2e7dd9;
+  font-weight: 600;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .featured-image a img {
+  width: 100%;
+  padding: 5px 0;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .description {
+  padding: 3px 0;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .description a {
+  display: none;
+}
+
+/*# sourceMappingURL=megamenu.css.map */
